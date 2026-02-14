@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Sol ❤️</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Georgia', serif;
+        background: linear-gradient(to bottom right, #2c003e, #7a003c);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        text-align: center;
+    }
+
+    .container {
+        background: rgba(0,0,0,0.6);
+        padding: 40px;
+        border-radius: 20px;
+        max-width: 800px;
+        box-shadow: 0 0 30px rgba(255, 0, 100, 0.6);
+        animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #ff4da6;
+    }
+
+    p {
+        line-height: 1.8;
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+
+    .heart {
+        font-size: 40px;
+        animation: heartbeat 1.5s infinite;
+        margin-top: 20px;
+    }
+
+    @keyframes heartbeat {
+        0% { transform: scale(1); }
+        25% { transform: scale(1.1); }
+        40% { transform: scale(1); }
+        60% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .footer {
+        margin-top: 30px;
+        font-style: italic;
+        color: #ffb3d9;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Happy Hearts Day, Sol ❤️</h1>
+
+    <p>Hi, Sol.</p>
+
+    <p>
+    Hindi na ako magpapakilala. Pakiramdam ko alam mo na kung sino ako.
+    This message is to thank you and your Ruhani family for welcoming me wholeheartedly.
+    </p>
+
+    <p>
+    I know we just met, and it’s only been 2 months and 2 days… 9 weeks and 1 day… 
+    exactly 64 calendar days since December 15, 2025, at 3:30 AM.
+    That was the day everything unexpectedly began.
+    </p>
+
+    <p>
+    From the very beginning, there was something about you that made my heart skip a beat.
+    Every time we talked, every update, every simple exchange —
+    I felt closer to you.
+    </p>
+
+    <p>
+    Sometimes I wish things had started differently.
+    But even when circumstances changed, even when things became difficult,
+    I still chose to stay.
+    </p>
+
+    <p>
+    From that moment, I knew I could never fight what I felt for you.
+    </p>
+
+    <p>
+    I want you to know that nandito lang ako.
+    I will always be here.
+    Maging kaibigan man o ano pa man —
+    kung kailangan mo ako, hindi ako aalis.
+    </p>
+
+    <p>
+    Haharapin kita bilang ako.
+    Nandito ako, maghihintay,
+    at hinding-hindi kita pababayaan.
+    </p>
+
+    <p>
+    Magsabi ka lang, at ako ay darating.
+    Ganun ka kahalaga sa akin.
+    Sana lagi mong tandaan yan.
+    </p>
+
+    <div class="heart">❤️</div>
+
+    <div class="footer">
+        — Someone who cares for you deeply
+    </div>
+</div>
+
+</body>
+</html>
